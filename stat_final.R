@@ -34,5 +34,5 @@ sapply(age_diagnosis_omit_na, sd, na.rm = TRUE)
 
 tumor_size_omit_na <- as.numeric(unlist(tumor_size_omit_na))
 tumor_size_omit_na <- as.numeric(unlist(tumor_size_omit_na))
-hist(tumor_dat)
+hist(tumor_size_omit_na)
 boxplot(tumor_size_omit_na)
